@@ -1,0 +1,27 @@
+{
+  "name": "mystore",
+  "version": "1.0.0",
+  "description": "Project to list products on listing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ashishtayal89@github.com/ashishtayal89/ajyal_capstone.git"
+  },
+  "keywords": [
+    "mystore",
+    "ajyal"
+  ],
+  "author": "Ashish Tayal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishtayal89/ajyal_capstone/issues"
+  },
+  "homepage": "https://github.com/ashishtayal89/ajyal_capstone#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
