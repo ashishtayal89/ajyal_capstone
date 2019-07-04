@@ -1,0 +1,24 @@
+{
+  "name": "mystore",
+  "version": "1.0.0",
+  "description": "My First Store",
+  "main": "index.js",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ashishtayal89@github.com/ashishtayal89/ajyal_capstone.git"
+  },
+  "author": "Ashish Tayal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishtayal89/ajyal_capstone/issues"
+  },
+  "homepage": "https://github.com/ashishtayal89/ajyal_capstone#readme"
+}
