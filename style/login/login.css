@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightgreen;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10 40 10 40;
+  border: 1px solid black;
+}
+
+form input {
+  margin: 10 0 10 0;
+  text-align: center;
+  outline: none;
+}

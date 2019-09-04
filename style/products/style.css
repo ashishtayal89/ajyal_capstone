@@ -1,0 +1,237 @@
+html {
+  height: 100%;
+  overflow: auto;
+}
+
+body {
+  position: relative;
+  background: lightgreen;
+  margin: 0 auto;
+  min-height: 100%;
+  overflow: auto;
+}
+
+#header {
+  height: 100px;
+  background: green;
+  margin: 0 auto;
+}
+
+#header .logo {
+  float: left;
+  padding: 35px;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#header .logo img {
+  width: 150px;
+  height: 35px;
+}
+
+#header .searchBox {
+  float: left;
+  padding: 35px;
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#header .searchBox input {
+  height: 30px;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#header .welcomeBox {
+  float: left;
+  width: 20%;
+  padding: 30px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+}
+
+#main #filter {
+  float: left;
+  box-sizing: border-box;
+  width: 25%;
+  min-height: 100%;
+  margin-bottom: 100px;
+}
+
+#main #filter .refreshBox {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid black;
+  position: relative;
+  text-align: center;
+}
+
+#main #filter .refreshBox > span {
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+#main #filter .refreshBox > span.filterLabel {
+  padding: 10px;
+}
+
+#main #filter .refreshBox > span.refresh {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+#main #filter .filterBox {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+#main #filter .filterBox > div {
+  padding: 5px 10px 5px 10px;
+  margin: 10px 20px 10px 20px;
+  border: 1px solid black;
+}
+
+#main #filter .filterBox > div.submit {
+  text-align: center;
+  border: 0px;
+}
+
+#main #filter .filterBox > div#showing {
+  font-weight: bold;
+  text-align: center;
+  border: 0px;
+}
+
+#main #filter .filterBox > div div.title {
+  padding: 10px;
+}
+
+#main #filter .filterBox > div div.title:hover {
+  cursor: pointer;
+}
+
+#main #filter .filterBox > div div.filter {
+  display: none;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+#main #filter .filterBox > div div.filter.show {
+  display: flex;
+}
+
+#main #filter .filterBox > div.price div.filter {
+  flex-direction: row;
+}
+
+#main #filter .filterBox > div.discount div.filter {
+  flex-direction: row;
+}
+
+#main #filter .filterBox > div div.filter div {
+  display: inline-block;
+}
+
+#main #products {
+  float: left;
+  box-sizing: border-box;
+  border-left: 1px solid black;
+  width: 75%;
+  min-height: 100%;
+  margin-bottom: 100px;
+}
+
+#main #products .product {
+  float: left;
+  margin: 3%;
+  width: 27%;
+  height: 350px;
+  background: green;
+  box-sizing: border-box;
+}
+
+#main #products .product .pImage {
+  height: 40%;
+  text-align: center;
+}
+
+#main #products .product .pImage img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+#main #products .product .pInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+#main #products .product .pInfo > div {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#main #products .product .pInfo > div.addToCart {
+  border: 1px solid black;
+  width: 50%;
+  background: lightgreen;
+}
+
+#main #products .product .pInfo > div.addToCart:hover {
+  cursor: pointer;
+}
+
+#main #products .product .pInfo > div span {
+  display: inline-block;
+}
+
+#main #products .product .pInfo > div span.add {
+  padding-left: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 13px;
+}
+
+#main #products .product .pInfo > div span.add::after {
+  padding-left: 10px;
+  content: "Add";
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  bottom: 0px;
+  height: 100px;
+  background: green;
+}
+
+#footer ul li {
+  padding: 20px;
+  float: left;
+  list-style: none;
+}
